@@ -1,0 +1,112 @@
+body {
+  background-color: #212529;
+}
+
+.navbar {
+    background-color: #444546;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #00ADB5;
+  letter-spacing: 2px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.intro {
+  width: 50%;
+}
+.intro h1 {
+  align-items: center;
+  color: #00ADB5;
+
+  font-size: 5rem;
+  align-items: center;
+  margin-left: 50%;
+}
+#name {
+  font-style: italic;
+}
+.intro p.introcont {
+  color: #f4eee0;
+  margin-left: 50%;
+  align-items: center;
+  font-size: 3rem;
+  margin-top: 20px;
+}
+.main-img {
+  width: 50%;
+}
+.about-me {
+  display: flex;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.myImg {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.about-me .me p {
+  color: #f4eee0;
+  width: 35%;
+  margin: auto;
+  align-items: center;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  margin-left:10% ;
+  
+}
+#skil{
+    margin-top: 5%;
+    color: #00ADB5;
+    margin-left: 10%;
+    font-size: 5rem;
+}
+.soft-skills{
+    color: #f4eee0;
+    width: 50%;
+}
+.soft-skills h3{
+    font-size: 2.5rem;
+}
+.skills ul{
+    margin-top: 5%;
+}
+.soft-skills ul li{
+    list-style: none;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+ .hard-skills{
+    color: #f4eee0;
+    width: 50%;
+}
+.hard-skills h3{
+    font-size: 2.5rem;
+}
+.hard-skills ul li{
+    list-style: none;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+.contact{
+  color: #f4eee0;
+  letter-spacing: 2px;
+}
+
+ 
